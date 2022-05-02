@@ -9,7 +9,7 @@ from tqdm import tqdm
 from torch.utils.data import *
 
 path = "data/"
-bert_path = "model/chinese_roberta_wwm_ext_pytorch/"
+bert_path = "model/chinese-roberta-wwm-ext/"
 tokenizer = BertTokenizer(vocab_file=bert_path + "vocab.txt")  # 初始化分词器
 
 input_ids = []  # input char ids

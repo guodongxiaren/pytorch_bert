@@ -1,0 +1,3 @@
+[submodule "model/chinese-roberta-wwm-ext"]
+	path = model/chinese-roberta-wwm-ext
+	url = https://huggingface.co/hfl/chinese-roberta-wwm-ext
